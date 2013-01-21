@@ -26,5 +26,6 @@ int main( int argc, char *argv[] ) {
     myRegit.show();
 
 	// Master File
+	// New B1 
     return app.exec();
 }
