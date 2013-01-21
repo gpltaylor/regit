@@ -25,5 +25,6 @@ int main( int argc, char *argv[] ) {
     myRegit.setPath( app.applicationDirPath() );
     myRegit.show();
 
+	// Master File
     return app.exec();
 }
