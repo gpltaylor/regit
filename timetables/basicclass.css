@@ -1,0 +1,147 @@
+TIMETABLE {
+	font-style: normal;
+	color: 000000;
+	background: #9ed6d5;
+}
+
+
+CLASSNAME {
+	display: block;
+	font-size: large;
+	background: #336699;
+	font-weight: bold;
+	color: white;
+	font-family: Arial, Helvetica, Sans-serif;
+	border: #FF000;
+	border-style: double;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-left-width: medium
+}
+
+LECTURER:before {
+	font-size: large;
+	font-weight: bold;
+	color: #336699;
+	content: "Lectuter: "
+}
+LECTURER {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+
+DAY:before {
+	font-size: large;
+	font-weight: bold;
+	color: #336699;
+	content: "Day's the class is held: "
+}
+DAY {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+STUDENT {
+	display: block;
+	color: black;
+	margin: 1cm
+}
+STUDENT:after {
+	display: block;
+	border=1;
+	background: #336699;
+	content: "End of given student";
+	color:#336699
+}
+
+STUDENTID:before {
+	font-weight: bold;
+	color: #336699;
+	content: "Students ID: "
+}
+STUDENTID {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+NAME:before {
+	font-weight: bold;
+	color: #336699;
+	content: "Student Name : "
+}
+NAME {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+AGE:before {
+	font-weight: bold;
+	color: #336699;
+	content: "Students age: "
+}
+AGE {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+AGE:after {
+	font-weight: bold;
+	color: #336699;
+	content: "Students Address: "
+}
+ADDRESS {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+CLASSDATES:before {
+	font-weight: bold;
+	color: #336699;
+	content: "Class Dates: "
+}
+CLASSDATES {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+CLASSDATE:after {
+	content : "    ";
+}
+
+BEHAVIOURS:before {
+	font-weight: bold;
+	color: #336699;
+	content: "Students Behaviour: "
+}
+BEHAVIOURS {
+	display: block;
+	font-style: normal;
+	color: 000000;
+}
+
+BEHAVIOUR:after {
+	content: "    "
+}
+
+MARKS:before {
+	font-weight: bold;
+	color: #336699;
+	content: "Students Marks: "
+}
+MARKS {
+	display: block;
+	font-style: normal;
+	color: 000000
+}
+
+MARK:after {
+	content : "    ";
+}
